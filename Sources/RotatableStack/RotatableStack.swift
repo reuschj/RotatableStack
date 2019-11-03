@@ -9,7 +9,7 @@
 import SwiftUI
 
 /**
- A view that embeds in a `VStack` when in portrait orientation and `HStack` in landscape orientation
+ A SwiftUI view that embeds in a `VStack` when in portrait orientation and `HStack` in landscape orientation
  */
 @available(iOS 13.0, *)
 @available(OSX 10.15, *)

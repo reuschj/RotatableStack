@@ -11,6 +11,8 @@ import SwiftUI
 /**
  A view that embeds in a `VStack` when in portrait orientation and `HStack` in landscape orientation
  */
+@available(iOS 13.0, *)
+@available(OSX 10.15, *)
 public struct RotatableStack<Content>: View where Content : View {
     
     /// Stores the content function builder

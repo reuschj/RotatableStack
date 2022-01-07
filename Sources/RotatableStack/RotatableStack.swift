@@ -13,6 +13,7 @@ import SwiftUI
  */
 @available(iOS 13.0, *)
 @available(OSX 10.15, *)
+@available(watchOS 6.0, *)
 public struct RotatableStack<Content>: View where Content : View {
     
     /// Stores the content function builder

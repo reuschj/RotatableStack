@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Test RotatableStack",
+            "program": "/Applications/Xcode.app/Contents/Developer/usr/bin/xctest",
+            "args": [
+                ".build/debug/RotatableStackPackageTests.xctest"
+            ],
+            "cwd": "${workspaceFolder:RotatableStack}",
+            "preLaunchTask": "swift: Build All"
+        }
+    ]
+}

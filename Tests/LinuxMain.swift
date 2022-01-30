@@ -1,7 +1,2 @@
-import XCTest
-
-import RotatableStackTests
-
-var tests = [XCTestCaseEntry]()
-tests += RotatableStackTests.allTests()
-XCTMain(tests)
+// LinuxMain.swift
+fatalError("Run the tests with `swift test --enable-test-discovery`.")
